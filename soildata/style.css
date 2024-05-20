@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eae2b7;
+    color: #fff; /* All text color set to white */
+    margin: 0;
+    padding: 20px;
+    background-image: url('https://www.transparenttextures.com/patterns/sandpaper.png');
+}
+
+.container {
+    max-width: 1000px; /* Increased max-width for a larger container */
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px; /* Increased padding for more space inside the container */
+    border-radius: 20px; /* Increased border-radius for rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #fff; /* Heading text color set to white */
+}
+
+.entity-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.entity-table th, .entity-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: #fff; /* Table text color set to white */
+}
+
+.entity-table th {
+    background-color: #444;
+}
+
+form label {
+    color: #fff; /* Label text color set to white */
+}
+
+form input {
+    background-color: #fff;
+    margin-bottom: 10px;
+    color: #333; /* Input text color set to dark gray for better readability */
+}
+
+button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 15px 30px; /* Increased padding for larger buttons */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;}
